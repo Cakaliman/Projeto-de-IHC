@@ -1,0 +1,100 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="tabelacss.css"/>
+</head>
+<body>
+
+	<div class="header">
+		<h1>Tabela da Árvore do Conhecimento</h1>
+	</div>
+
+    <div id="divConteudo">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Código</th>
+					<th>Usuário</th>
+                    <th>Competência</th>
+                    <th>Grau</th>
+                </tr>
+                <tr>
+                    <th><input type="text" id="txtColuna1"/></th>
+                    <th><input type="text" id="txtColuna2"/></th>
+                    <th><input type="text" id="txtColuna3"/></th>
+					<th><input type="text" id="txtColuna4"/></th>
+                </tr>             
+            </thead>
+            <tbody>
+                <tr>
+<!-- codigo: numero_folha.numero_ramo.numero_posiçãoNoTronco-->
+                    <td>0.00.0001</td>
+					<td>João Vitor</td>
+                    <td>Jogar volei</td>
+                    <td>Tronco</td>
+                </tr>
+                <tr>
+                    <td>0.00.0002</td>
+					<td>Marcela</td>
+                    <td>Andar de bicicleta</td>
+                    <td>Tronco</td>
+                </tr>
+                <tr>
+                    <td>0.00.0003</td>
+					<td>Fernando</td>
+                    <td>Cozinhar</td>
+                    <td>Tronco</td>
+                </tr> 
+                <tr>
+                    <td>0.00.0003</td>
+					<td>Rafael</td>
+                    <td>Cozinhar</td>
+                    <td>Tronco</td>
+                </tr>
+                <tr>
+                    <td>0.00.0004</td>
+					<td>Carla</td>
+                    <td>Tocar musica</td>
+                    <td>Tronco</td>
+                </tr>
+             
+                <tr>
+                    <td>0.01.0003</td>
+					<td>Rafael</td>
+                    <td>Cozinhar batatas</td>
+                    <td>Ramo</td>
+                </tr>
+                <tr>
+                    <td>0.02.0003</td>
+					<td>Fernando</td>
+                    <td>Fazer churrasco</td>
+                    <td>Ramo</td>
+                </tr>
+                <tr>
+                    <td>0.02.0003</td>
+					<td>Rafael</td>
+                    <td>Fazer churrasco</td>
+                    <td>Ramo</td>
+                </tr>
+                <tr>
+                    <td>0.01.0004</td>
+					<td>Carla</td>
+                    <td>Tocar musica na flauta doce</td>
+                    <td>Ramo</td>
+                </tr>
+                <tr>
+                    <td>1.02.0003</td>
+					<td>Fernando</td>
+                    <td>Especialista em fazer cortes de carnes suínas</td>
+                    <td>Folha</td>
+                </tr>             
+            </tbody>
+        </table>
+    </div>
+
+	<button><a href="Home.html">Retornar à Homepage</a></button>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+    <script type="text/javascript" src="tabelajs.js"></script>    
+</body>
+</html>
